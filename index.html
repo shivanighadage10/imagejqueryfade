@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container text-center mt-5">
+    <h2 class="mb-4">Image Gallery</h2>
+
+    <!-- Filter Buttons -->
+    <div class="btn-group mb-4">
+        <button class="btn btn-secondary filter-btn" data-filter="All">All</button>
+        <button class="btn btn-secondary filter-btn" data-filter="Karnatak">Karnatak</button>
+        <button class="btn btn-secondary filter-btn" data-filter="Uttarakhand">Uttarakhand</button>
+        <button class="btn btn-secondary filter-btn" data-filter="Punjab">Punjab</button>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="row" id="gallery">
+        <div class="col-md-4 mb-4 gallery-item nature">
+            <img src="https://karnatakatourism.org/wp-content/uploads/2017/08/Badami-550x550-1.jpg" class="img-fluid gallery-img" alt="Karnatak">
+        </div>
+
+        <div class="col-md-4 mb-4 gallery-item tech">
+            <img src="https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1504856298/DO_NOT_USE_DISCOVER_INDIA_EDITORIAL/Aug_2016_Anchor_Punjab_222.jpg" class="img-fluid gallery-img" alt="Punjab">
+        </div>
+        <div class="col-md-4 mb-4 gallery-item nature">
+            <img src="https://cdn.britannica.com/38/10638-050-10CB2DFB/Jog-Falls-Karnataka-India.jpg" class="img-fluid gallery-img" alt="Karnatak">
+        </div>
+        <div class="col-md-4 mb-4 gallery-item travel">
+            <img src="https://www.ayodhyacarhire.com/wp-content/uploads/2024/05/Rishikesh-Uttarakhand-India.jpg" class="img-fluid gallery-img" alt="Uttarakhand">
+        </div>
+        <div class="col-md-4 mb-4 gallery-item tech">
+            <img src="https://cdn.britannica.com/53/176353-050-5B854179/Harmandir-Sahib-Amritsar-Punjab-India.jpg" class="img-fluid gallery-img" alt="Punjab">
+        </div>
+        <div class="col-md-4 mb-4 gallery-item nature">
+            <img src="https://cdn.britannica.com/73/156473-050-E0E9F844/Vidah-Sauda-state-legislature-building-Karnataka-Bengaluru.jpg" class="img-fluid gallery-img" alt="Karnatak">
+        </div>
+    </div>
+</div>
+
+<!-- jQuery and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
